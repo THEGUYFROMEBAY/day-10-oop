@@ -2,16 +2,12 @@ package CardDealer;
 
 import SimpleCard.SC;
 
-import java.util.Random;
-
 public class CD {
 //    34  CardDealer
 //    • Fields: SimpleCard[] deck (length 5); Random r
 //    • Methods: void dealRandom(); int totalValue()
 //    • Main: dealRandom then print totalValue and each card text.
     SC[] deck = new SC[5];
-
-    Random rand = new Random();
 
     public void init(){
         for(int i = 0; i < 5; i++){
