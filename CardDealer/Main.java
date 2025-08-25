@@ -7,5 +7,10 @@ public class Main {
 //    • Main: dealRandom then print totalValue and each card text.
     public static void main(String[] args) {
 
+        CD cd = new CD();
+        cd.init();
+        cd.dealRandom();
+        System.out.println(cd.totalValue());
+
     }
 }
